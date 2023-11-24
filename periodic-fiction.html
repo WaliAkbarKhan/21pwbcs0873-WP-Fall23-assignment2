@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Historical</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="CSS/styles.css"></link>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm" id="nav-style">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="javascript:void(0)"><img src="Images/Logo.png" 
+                style="width: 50px; height: 50px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categories</a>
+                            <ul class="dropdown-menu">
+                                <!-- Main category: Imaginative Narratives -->
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Imaginative Narratives</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="narrative-fiction.html">Narrative Fiction</a></li>
+                                        <li><a class="dropdown-item" href="futuristic-societies.html">Futuristic Societies</a></li>
+                                        <li><a class="dropdown-item" href="science-fantasy.html">Science Fantasy</a></li>
+                                        <li><a class="dropdown-item" href="mythic-fiction.html">Mythic Fiction</a></li>
+                                        <li><a class="dropdown-item" href="macabre.html">Macabre</a></li>
+                                        <li><a class="dropdown-item" href="dark-romanticism.html">Dark Romanticism</a></li>
+                                        <li><a class="dropdown-item" href="quests-expeditions.html">Quests and Expeditions</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Main category: Acclaimed & Time-Honored Literature -->
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Acclaimed & Time-Honored Literature</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="timeless-literature.html">Timeless Literature</a></li>
+                                        <li><a class="dropdown-item" href="periodic-fiction.html">Periodic Fiction</a></li>
+                                        <li><a class="dropdown-item" href="whodunits.html">Whodunits</a></li>
+                                        <li><a class="dropdown-item" href="intellectual-fiction.html">Intellectual Fiction</a></li>
+                                        <li><a class="dropdown-item" href="modern-realism.html">Modern Realism</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Main category: True-life Tales & Reflections -->
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">True-life Tales & Reflections</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="life-stories.html">Life Stories</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" action="search.html" method="get">
+                        <input class="form-control me-2" type="text" placeholder="Search by Book Name" name="query" id="searchInput">
+                        <button class="btn btn-primary btn-expand" style="background-color: rgb(124, 96, 58);" type="submit" id="searchButton">Search</button>
+                    </form>                 
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-4" id="container" >
+            <div class="row" id="horror">
+                <!-- Book details will be dynamically inserted here -->
+            </div>
+        </div>
+
+           <!--Footer-->
+<div id="footer">
+    <div class="container">
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <p>on social media</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="images/instagram.png" alt="Instagram">
+                </a>
+                <!-- Add more social links as needed -->
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Use</a> |
+                <a href="#">Sitemap</a>
+            </div>
+            <p class="copy-right">&copy; OLMS All Rights Reserved</p>
+        </div>
+    </div>
+  </div>
+        <script src="JavaScript/script.js"></script>
+    </body>
+</html>
